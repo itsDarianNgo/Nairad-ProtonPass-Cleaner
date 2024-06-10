@@ -1,8 +1,9 @@
+```
 # Nairad's ProtonPass Cleaner
 
-A tool to clean duplicate login entries from ProtonPass JSON exports while preserving non-login data.
+![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
 
-------
+A tool to clean duplicate login entries from ProtonPass JSON exports while preserving non-login data.
 
 ## Features
 
@@ -14,18 +15,13 @@ A tool to clean duplicate login entries from ProtonPass JSON exports while prese
 ## Installation
 
 1. **Clone the Repository**:
-
-   ```
-   bashCopy codegit clone https://github.com/itsDarianNgo/Nairad-ProtonPass-Cleaner.git
+   git clone https://github.com/itsDarianNgo/Nairad-ProtonPass-Cleaner.git
    cd Nairad-ProtonPass-Cleaner
-   ```
+```
 
-2. **Ensure Python is Installed**:
-
+1. **Ensure Python is Installed**:
    - Make sure you have Python 3.6 or higher installed. You can download it from [python.org](https://www.python.org/downloads/).
-
-3. **Verify the Required Directory Structure**:
-
+2. **Verify the Required Directory Structure**:
    - Place your ProtonPass export `data.json` file into the `original` folder located next to the script.
 
 ## Usage
@@ -42,9 +38,7 @@ A tool to clean duplicate login entries from ProtonPass JSON exports while prese
 
       directory where the script is located:
 
-     ```
-     bash
-     Copy code
+     ```bash
      cd path/to/Nairad-ProtonPass-Cleaner
      ```
 
@@ -53,8 +47,6 @@ A tool to clean duplicate login entries from ProtonPass JSON exports while prese
    - Execute the script using Python:
 
      ```
-     bash
-     Copy code
      python remove_duplicates.py
      ```
 
@@ -124,4 +116,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For any questions, feedback, or help, feel free to reach out via GitHub Issues or contact me on Discord at Cnidarian.
+For any questions, feedback, or help, feel free to reach out via GitHub Issues or contact me on Discord at `Cnidarian`.
